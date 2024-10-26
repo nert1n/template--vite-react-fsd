@@ -1,8 +1,6 @@
 User-agent: *
 Disallow: /login/
 Disallow: /register/
-Disallow: /verification/
-Disallow: /nickname/
 
 Allow: /public/
 Allow: /images/
@@ -21,7 +19,7 @@ Allow: /allow-bing/
 User-agent: BadBot
 Disallow: /
 
-Sitemap: https://www.codersbud.com/sitemap.xml
+Sitemap: https://www.template.com/sitemap.xml
 
 User-agent: *
 Disallow: /*?session_id=
