@@ -52,9 +52,7 @@ module.exports = {
 			},
 		],
 
-		// MAYBE CHANGE LATER ON WARN
 		"security/detect-object-injection": "off",
-
 		"sonarjs/todo-tag": "off",
 		"promise/always-return": "error",
 		"promise/no-return-wrap": "error",
