@@ -1,3 +1,5 @@
+// eslint-disable-next-line import/no-unresolved
+import tailwindcss from "@tailwindcss/vite";
 import legacy from "@vitejs/plugin-legacy";
 import react from "@vitejs/plugin-react";
 import path from "path";
@@ -9,6 +11,7 @@ import sitemap from "vite-plugin-sitemap";
 export default defineConfig({
 	plugins: [
 		react(),
+		tailwindcss(),
 		sitemap({ hostname: "https://www.template.com" }),
 		compression({ algorithm: "gzip" }),
 		legacy({ targets: ["defaults", "not IE 11"] }),

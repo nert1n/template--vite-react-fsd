@@ -1,6 +1,10 @@
 @import url("./fonts/fonts.scss");
 @import url("./base/nule.scss");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #root {
 	font-family: "Plus Jakarta Sans", sans-serif;
 }

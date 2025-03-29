@@ -1,1 +1,1 @@
-export const Home = () => <h1>Home page!</h1>;
+export const Home = () => <h1 className="bg-border">Home page!</h1>;
