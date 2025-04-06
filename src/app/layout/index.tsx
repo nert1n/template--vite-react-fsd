@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 
 import Providers from "@app/providers";
 import { ReloadPrompt } from "@entities/reloadPrompt";
-import { Loader } from "@shared/ui/loader";
+import { Loader } from "@shared/ui";
 
 const Layout = () => {
 	return (
